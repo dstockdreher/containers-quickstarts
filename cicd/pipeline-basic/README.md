@@ -128,7 +128,7 @@ oc new-app --template=generic-java-jenkins-pipeline -p APPLICATION_NAME=${app_na
 
 At this point you should be able to go to the Web Console and following the pipeline by clicking in your `myapp-dev` project, and going to *Builds* -> *Pipelines*. At several points you will be prompted for input on the pipeline. You can interact with it by clicking on the _input required_ link, which takes you to Jenkins, where you can click the *Proceed* button. By the time you get through the end of the pipeline you should be able to visit the Route for your app deployed to the `myapp-prod` project to confirm that your image has been promoted through all stages.
 
-## Quicksart for Cheaters
+## Quickstart for Cheaters
 
 A quick test script has been created for testing convenience. Use as follows:
 
